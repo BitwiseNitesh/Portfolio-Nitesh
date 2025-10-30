@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconAe" x1="0" y1="120" x2="120" y2="0">
+      <stop offset="0%" stop-color="#0F1633" />
+      <stop offset="100%" stop-color="#4B64F5" />
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="96" height="96" rx="22" fill="url(#iconAe)" stroke="#9FB5FF" stroke-width="3" />
+  <text x="60" y="76" font-family="Orbitron, sans-serif" font-size="42" fill="#EEF4FF" text-anchor="middle">Ae</text>
+</svg>

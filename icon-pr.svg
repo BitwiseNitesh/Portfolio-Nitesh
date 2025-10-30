@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconPr" x1="0" y1="0" x2="120" y2="120">
+      <stop offset="0%" stop-color="#361350" />
+      <stop offset="100%" stop-color="#8B24FF" />
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="96" height="96" rx="22" fill="url(#iconPr)" stroke="#C7A2FF" stroke-width="3" />
+  <text x="60" y="76" font-family="Orbitron, sans-serif" font-size="42" fill="#F2E7FF" text-anchor="middle">Pr</text>
+</svg>

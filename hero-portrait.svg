@@ -1,0 +1,20 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#8B24FF" stop-opacity="0.7" />
+      <stop offset="60%" stop-color="#4AC8FF" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F0F3D" />
+      <stop offset="100%" stop-color="#050509" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="#050509" />
+  <circle cx="400" cy="320" r="280" fill="url(#halo)" opacity="0.85" />
+  <path d="M365 230C365 190 400 160 440 160C480 160 515 190 515 230C515 270 490 308 440 320C390 332 365 270 365 230Z" fill="#0F0F1F" />
+  <path d="M260 640C260 520 330 450 440 450C550 450 620 520 620 640V720H260V640Z" fill="url(#body)" />
+  <path d="M260 640Q360 680 440 680Q520 680 620 640" stroke="#4AC8FF" stroke-width="6" stroke-linecap="round" opacity="0.35" />
+  <circle cx="410" cy="230" r="150" fill="rgba(8,8,12,0.9)" />
+  <path d="M331 328C352 305 368 250 390 242C410 235 436 250 460 242C484 234 512 188 528 190C544 192 548 256 548 300C548 344 450 420 380 400C310 380 310 352 331 328Z" fill="#090914" />
+</svg>

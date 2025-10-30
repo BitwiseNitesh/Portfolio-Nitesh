@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconVs" x1="0" y1="0" x2="120" y2="120">
+      <stop offset="0%" stop-color="#0A315A" />
+      <stop offset="100%" stop-color="#33B1FF" />
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="96" height="96" rx="22" fill="url(#iconVs)" stroke="#93DCFF" stroke-width="3" />
+  <text x="60" y="76" font-family="Orbitron, sans-serif" font-size="32" fill="#E4F7FF" text-anchor="middle">VS</text>
+  <text x="60" y="96" font-family="Orbitron, sans-serif" font-size="18" fill="#E4F7FF" text-anchor="middle">CODE</text>
+</svg>

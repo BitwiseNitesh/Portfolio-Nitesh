@@ -1,0 +1,480 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Nitesh Chandra — Web Developer & Video Editor blending code and cinematic storytelling." />
+  <title>Nitesh Chandra — Web Developer & Video Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="home">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" data-reveal>
+    <div class="site-header__inner">
+      <div class="site-header__brand">
+        <button type="button" class="site-header__avatar-trigger" data-avatar-open aria-label="View larger photo of Nitesh Chandra">
+          <span class="site-header__avatar" aria-hidden="true">
+            <img src="assets/my-photo-nitesh.jpg" alt="" width="48" height="48" />
+          </span>
+        </button>
+        <a href="#home" class="site-header__name-link">Nitesh Chandra</a>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="#hero">Home</a></li>
+          <li><a class="site-nav__link" href="#overview">Overview</a></li>
+          <li><a class="site-nav__link" href="#experience">Experience</a></li>
+          <li><a class="site-nav__link" href="#portfolio">Portfolio</a></li>
+          <li><a class="site-nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <span class="hero__accent" aria-hidden="true"></span>
+      <div class="hero__content" data-reveal>
+        <p class="hero__eyebrow">Cinematic Web &amp; Visual Experiences</p>
+        <h1 id="hero-title" class="hero__headline">Hi, I'm <span class="hero__highlight">Nitesh</span></h1>
+        <p class="hero__description">I craft immersive interfaces, edit compelling videos, and blend storytelling with code to elevate brands on every screen.</p>
+        <div class="hero__cta-group">
+          <a class="hero__cta hero__cta--primary" href="https://www.linkedin.com/in/nitesh-chandra1/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="hero__cta hero__cta--secondary" href="https://github.com/BitwiseNitesh" target="_blank" rel="noopener">GitHub</a>
+          <a class="hero__cta hero__cta--ghost" href="#contact">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--overview" id="overview" aria-labelledby="overview-title">
+      <div class="section__heading overview__heading" data-reveal>
+        <p class="overview__eyebrow">INTRODUCTION</p>
+        <div class="overview__title-wrap">
+          <h2 id="overview-title" class="overview__title">Overview.</h2>
+          <a
+            class="overview__resume"
+            href="assets/Nitesh-ChandraResume.pdf"
+            download="Nitesh-Chandra-Resume.pdf"
+            target="_blank"
+            rel="noopener"
+            aria-label="Download Nitesh Chandra resume as PDF"
+            type="application/pdf"
+          >
+            Resume
+          </a>
+        </div>
+      </div>
+
+      <div class="overview__content">
+        <p class="overview__body" data-reveal>
+          I'm a passionate web developer and video editor who blends JavaScript, HTML, CSS, and graphic design to craft immersive digital stories. A quick-learning, creativity-fueled problem solver, I love turning bold ideas into polished experiences. Let's build something amazing together!
+        </p>
+
+        <div class="overview__grid" role="list">
+          <article class="overview-card" role="listitem" data-reveal>
+            <span class="overview-card__icon" aria-hidden="true">WD</span>
+            <h3 class="overview-card__title">Web Developer</h3>
+            <p class="overview-card__subtitle">Modern, responsive experiences powered by clean, scalable code.</p>
+          </article>
+
+          <article class="overview-card" role="listitem" data-reveal>
+            <span class="overview-card__icon" aria-hidden="true">VE</span>
+            <h3 class="overview-card__title">Video Editor</h3>
+            <p class="overview-card__subtitle">Cinematic storytelling that keeps viewers engaged from frame to frame.</p>
+          </article>
+
+          <article class="overview-card" role="listitem" data-reveal>
+            <span class="overview-card__icon" aria-hidden="true">GD</span>
+            <h3 class="overview-card__title">Graphic Designer</h3>
+            <p class="overview-card__subtitle">Striking visuals designed to elevate every product and campaign.</p>
+          </article>
+
+          <article class="overview-card" role="listitem" data-reveal>
+            <span class="overview-card__icon" aria-hidden="true">CT</span>
+            <h3 class="overview-card__title">Creative Thinker</h3>
+            <p class="overview-card__subtitle">Fresh concepts delivered with precision, imagination, and heart.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--experience" id="experience" aria-labelledby="experience-title">
+      <div class="section__heading experience__heading" data-reveal>
+        <p class="experience__eyebrow">WHAT I HAVE DONE SO FAR</p>
+        <div class="experience__title-wrap">
+          <h2 id="experience-title" class="experience__title">Work Experience.</h2>
+          <span class="section__accent" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <ol class="work-timeline">
+        <li class="work-timeline__item" data-timeline>
+          <div class="work-timeline__marker" aria-hidden="true">
+            <span class="work-timeline__dot"></span>
+            <span class="work-timeline__line"></span>
+          </div>
+          <article class="work-card">
+            <header class="work-card__header">
+              <h3 class="work-card__role">CSSE Hackathon — Lost &amp; Found Portal</h3>
+              <time class="work-card__date" datetime="2025-08">August 2025</time>
+            </header>
+            <p class="work-card__company">Computer Science &amp; Engineering Hackathon · MMMUT</p>
+            <ul class="work-card__list">
+              <li>Led a four-member squad to design and ship a campus Lost &amp; Found portal within the hackathon sprint.</li>
+              <li>Implemented an automated matching algorithm linking lost-item reports with found submissions, cutting manual effort by 60%.</li>
+              <li>Built a responsive HTML, CSS, and JavaScript frontend backed by a Node.js + MySQL stack for real-time updates.</li>
+            </ul>
+          </article>
+        </li>
+
+        <li class="work-timeline__item" data-timeline>
+          <div class="work-timeline__marker" aria-hidden="true">
+            <span class="work-timeline__dot"></span>
+            <span class="work-timeline__line"></span>
+          </div>
+          <article class="work-card">
+            <header class="work-card__header">
+              <h3 class="work-card__role">Top 20 - IIT Bombay Techfest PULSE Hackathon</h3>
+              <time class="work-card__date" datetime="2024-12">December 2024</time>
+            </header>
+            <p class="work-card__company">Techfest, IIT Bombay · Mumbai, India</p>
+            <ul class="work-card__list">
+              <li>Led a 4-member team to build an AI-driven coding adviser in a 24-hour sprint.</li>
+              <li>Shipped a Flask backend with a lightweight HTML, CSS, and JS interface for rapid iteration.</li>
+              <li>Secured a Top-20 finish among 1000+ national teams at the PULSE finale.</li>
+            </ul>
+          </article>
+        </li>
+
+        <li class="work-timeline__item" data-timeline>
+          <div class="work-timeline__marker" aria-hidden="true">
+            <span class="work-timeline__dot"></span>
+            <span class="work-timeline__line"></span>
+          </div>
+          <article class="work-card">
+            <header class="work-card__header">
+              <h3 class="work-card__role">Smart India Hackathon (SIH)</h3>
+              <time class="work-card__date" datetime="2024-09">Sep 2024 – Oct 2024</time>
+            </header>
+            <p class="work-card__company">Hackathon Participant</p>
+            <ul class="work-card__list">
+              <li>Led a six-member team to secure a Top-10 finish within the college.</li>
+              <li>Optimized application response time by 35% under hackathon constraints.</li>
+              <li>Delivered responsive layouts with uncompromised cross-browser support.</li>
+            </ul>
+          </article>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section section--portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="section__heading" data-reveal>
+        <h2 id="portfolio-title">MY BEST PROJECTS</h2>
+        <span class="section__accent" aria-hidden="true"></span>
+      </div>
+
+      <div class="portfolio__viewport" data-slider>
+        <button class="portfolio__control portfolio__control--prev" type="button" aria-label="Show previous project" data-slider-prev disabled>
+          <span aria-hidden="true">◄</span>
+        </button>
+
+  <div class="portfolio__track-wrapper" data-slider-wrapper tabindex="0" aria-label="Featured projects carousel">
+          <div class="portfolio__track" role="list" data-slider-track>
+          <article class="portfolio-card" data-reveal role="listitem">
+            <figure class="portfolio-card__media">
+              <video
+                class="portfolio-card__video"
+                poster="assets/project3.svg"
+                preload="metadata"
+                muted
+                playsinline
+                loop
+                data-src="assets/SQUARD.mp4"
+                aria-label="SQUARD"
+              >
+                Sorry, your browser does not support embedded videos.
+              </video>
+              <a
+                class="portfolio-card__external"
+                href="https://www.instagram.com/reel/DPdwnU-jxUm/?igsh=MWhkendxanc1Z2JqYw=="
+                target="_blank"
+                rel="noopener"
+                aria-label="View SQUARD project on Instagram"
+              ></a>
+              <span class="portfolio-card__glow" aria-hidden="true"></span>
+            </figure>
+            <figcaption class="portfolio-card__caption">SQUARD</figcaption>
+          </article>
+
+          <article class="portfolio-card" data-reveal role="listitem">
+            <figure class="portfolio-card__media">
+              <video
+                class="portfolio-card__video"
+                poster="assets/project2.svg"
+                preload="metadata"
+                muted
+                playsinline
+                loop
+                data-src="assets/New Project 9 [97E6762].mp4"
+                aria-label="GDG PROMO"
+              >
+                Sorry, your browser does not support embedded videos.
+              </video>
+              <button
+                class="portfolio-card__play"
+                type="button"
+                data-project-name="GDG PROMO"
+                data-video-src="assets/New Project 9 [97E6762].mp4"
+                data-video-poster="assets/project2.svg"
+                aria-label="Play GDG PROMO preview"
+              >
+                <span aria-hidden="true">▶</span>
+              </button>
+              <span class="portfolio-card__glow" aria-hidden="true"></span>
+            </figure>
+            <figcaption class="portfolio-card__caption">PROMO</figcaption>
+          </article>
+
+          <article class="portfolio-card" data-reveal role="listitem">
+            <figure class="portfolio-card__media">
+              <video
+                class="portfolio-card__video"
+                poster="assets/project1.svg"
+                preload="metadata"
+                muted
+                playsinline
+                loop
+                data-src="assets/Automatic Things.mp4"
+                aria-label="Automatic Things"
+              >
+                Sorry, your browser does not support embedded videos.
+              </video>
+              <a
+                class="portfolio-card__external"
+                href="https://www.instagram.com/reel/DMAsKXKI7Nq/?igsh=MWQ5N3ByeDRxdXUzcw=="
+                target="_blank"
+                rel="noopener"
+                aria-label="View Automatic Things project on Instagram"
+              ></a>
+              <button
+                class="portfolio-card__play"
+                type="button"
+                data-project-name="Automatic Things"
+                data-video-src="assets/Automatic Things.mp4"
+                data-video-poster="assets/project1.svg"
+                aria-label="Play Automatic Things preview"
+              >
+                <span aria-hidden="true">▶</span>
+              </button>
+              <span class="portfolio-card__glow" aria-hidden="true"></span>
+            </figure>
+            <figcaption class="portfolio-card__caption">AUTOMATIC THINGS</figcaption>
+          </article>
+
+          <article class="portfolio-card" data-reveal role="listitem">
+            <figure class="portfolio-card__media">
+              <video
+                class="portfolio-card__video"
+                poster="assets/project2.svg"
+                preload="metadata"
+                muted
+                playsinline
+                loop
+                data-src="assets/Graphic desing.mp4"
+                aria-label="Graphic Designing"
+              >
+                Sorry, your browser does not support embedded videos.
+              </video>
+              <button
+                class="portfolio-card__play"
+                type="button"
+                data-project-name="Graphic Designing"
+                data-video-src="assets/Graphic desing.mp4"
+                data-video-poster="assets/project2.svg"
+                aria-label="Play Graphic Designing preview"
+              >
+                <span aria-hidden="true">▶</span>
+              </button>
+              <span class="portfolio-card__glow" aria-hidden="true"></span>
+            </figure>
+            <figcaption class="portfolio-card__caption">GRAPHIC DESIGNING</figcaption>
+          </article>
+
+          <article class="portfolio-card" data-reveal role="listitem">
+            <figure class="portfolio-card__media">
+              <video
+                class="portfolio-card__video"
+                poster="assets/project3.svg"
+                preload="metadata"
+                muted
+                playsinline
+                loop
+                data-src="assets/REELS.mp4"
+                aria-label="Reels Showcase"
+              >
+                Sorry, your browser does not support embedded videos.
+              </video>
+              <button
+                class="portfolio-card__play"
+                type="button"
+                data-project-name="Reels Showcase"
+                data-video-src="assets/REELS.mp4"
+                data-video-poster="assets/project3.svg"
+                aria-label="Play Reels Showcase preview"
+              >
+                <span aria-hidden="true">▶</span>
+              </button>
+              <span class="portfolio-card__glow" aria-hidden="true"></span>
+            </figure>
+            <figcaption class="portfolio-card__caption">REELS</figcaption>
+          </article>
+
+          <article class="portfolio-card" data-reveal role="listitem">
+            <figure class="portfolio-card__media">
+              <video
+                class="portfolio-card__video"
+                poster="assets/project2.svg"
+                preload="metadata"
+                muted
+                playsinline
+                loop
+                data-src="assets/Obsession .mp4"
+                aria-label="Obsession"
+              >
+                Sorry, your browser does not support embedded videos.
+              </video>
+              <button
+                class="portfolio-card__play"
+                type="button"
+                data-project-name="Obsession"
+                data-video-src="assets/Obsession .mp4"
+                data-video-poster="assets/project2.svg"
+                aria-label="Play Obsession preview"
+              >
+                <span aria-hidden="true">▶</span>
+              </button>
+              <span class="portfolio-card__glow" aria-hidden="true"></span>
+            </figure>
+            <figcaption class="portfolio-card__caption">OBSESSION</figcaption>
+          </article>
+          </div>
+        </div>
+
+        <button class="portfolio__control portfolio__control--next" type="button" aria-label="Show next project" data-slider-next>
+          <span aria-hidden="true">►</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section section--testimonials" aria-labelledby="testimonials-title">
+      <div class="section__heading" data-reveal>
+        <h2 id="testimonials-title">Testimonials</h2>
+        <span class="section__accent" aria-hidden="true"></span>
+      </div>
+      <div class="testimonials" role="list">
+        <article class="testimonial" data-reveal role="listitem">
+          <img src="assets/avatar-client1.svg" loading="lazy" width="72" height="72" alt="Avatar placeholder for client Priya Sharma" class="testimonial__avatar" />
+          <blockquote class="testimonial__quote">
+            “Nitesh transformed our footage into a cinematic campaign that boosted engagement by 140%. His attention to pacing and visuals is unmatched.”
+          </blockquote>
+          <p class="testimonial__author">Amartya Pandey — Executive Member, AI Sparks</p>
+        </article>
+
+        <article class="testimonial" data-reveal role="listitem">
+          <img src="assets/avatar-client2.svg" loading="lazy" width="72" height="72" alt="Avatar placeholder for client Arjun Patel" class="testimonial__avatar" />
+          <blockquote class="testimonial__quote">
+            “From UI prototypes to pixel-perfect builds, Nitesh delivers clean code and bold aesthetics. He is our go-to for launch-critical web assets.”
+          </blockquote>
+          <p class="testimonial__author">Naman Singh — Executive member,  Coders and Developers Club</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="section__heading" data-reveal>
+        <h2 id="contact-title">LET'S CONNECT</h2>
+        <span class="section__accent" aria-hidden="true"></span>
+      </div>
+
+      <p class="contact__intro" data-reveal>I’m ready to collaborate on your next creative or digital project.</p>
+
+      <form class="contact__form" id="contact-form" novalidate data-reveal>
+        <div class="contact__field">
+          <label for="name">Name *</label>
+          <input id="name" name="name" type="text" placeholder="Your Name" autocomplete="name" required aria-required="true" />
+          <span class="contact__error" id="name-error" role="alert"></span>
+        </div>
+
+        <div class="contact__field">
+          <label for="email">Email *</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required aria-required="true" />
+          <span class="contact__error" id="email-error" role="alert"></span>
+        </div>
+
+        <div class="contact__field contact__field--full">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" placeholder="Tell me about your project…" rows="4" minlength="10" required aria-required="true"></textarea>
+          <span class="contact__error" id="message-error" role="alert"></span>
+        </div>
+
+        <button class="contact__submit" type="submit">SEND</button>
+        <div class="contact__success" aria-live="polite">
+          <span class="contact__success-icon" aria-hidden="true">✔</span>
+          <span class="contact__success-text">Message Sent Successfully 🚀</span>
+        </div>
+      </form>
+
+      <p class="contact__fallback" data-reveal>
+        Or email me directly:
+        <a href="mailto:niteshchandra@gmail.com">nitesh2102chandra@gmail.com</a>
+      </p>
+
+      <ul class="contact__details" data-reveal>
+        <li><span aria-hidden="true">📞</span> Phone: +91 6367658602</li>
+        <li><span aria-hidden="true">📍</span> Location: Gorakhpur, Uttar Pradesh, India</li>
+        <li><span aria-hidden="true">✉️</span> Email: nitesh2102chandra@gmail.com</li>
+      </ul>
+    </section>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">
+    <span aria-hidden="true">▲</span>
+  </button>
+
+  <dialog id="avatar-modal" class="avatar-modal" aria-labelledby="avatar-modal-title">
+    <div class="avatar-modal__content">
+      <div class="avatar-modal__header">
+        <h2 id="avatar-modal-title" class="avatar-modal__title">Nitesh Chandra</h2>
+        <button type="button" class="avatar-modal__close" data-avatar-close aria-label="Close photo">×</button>
+      </div>
+      <img src="assets/my-photo-nitesh.jpg" alt="Portrait of Nitesh Chandra" class="avatar-modal__image" />
+    </div>
+  </dialog>
+
+  <dialog id="portfolio-preview" class="preview-modal" aria-labelledby="preview-title" aria-modal="true">
+    <div class="preview-modal__content">
+      <h3 id="preview-title" class="preview-modal__title">Project Preview</h3>
+      <div class="preview-modal__player" data-preview-player>
+        <p class="preview-modal__placeholder" data-preview-placeholder>
+          Select a project to watch the preview clip.
+        </p>
+      </div>
+      <p class="preview-modal__description" data-preview-description>
+        Looping teaser will appear after you open a project preview.
+      </p>
+      <button class="preview-modal__close" type="button" data-close-preview>Close</button>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <span class="footer__accent" aria-hidden="true"></span>
+    <p class="footer__copy">© 2025 Nitesh Chandra — All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
